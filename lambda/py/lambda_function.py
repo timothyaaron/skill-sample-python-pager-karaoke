@@ -151,7 +151,7 @@ class KaraokeIntentHandler(AbstractRequestHandler):
                 commands=[
                     SpeakItemCommand(
                         component_id="karaokespeechtext",
-                        highlight_mode=HighlightMode.LINE)
+                        highlight_mode=HighlightMode.line)
                 ]
             )
         )
